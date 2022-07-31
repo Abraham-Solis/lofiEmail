@@ -128,15 +128,52 @@
 		max-width: 600px;
 		border-spacing: 0;
         text-align: center;
-        padding-bottom: 500px;
+        padding-bottom: 195px;
 	}
 
     .wrapper{
 		width: 100%;
 		table-layout: fixed;
-		background-color: #cccccc;
+		background-color: #ffdabe;
 		padding-bottom: 60px;
 	}
+
+    .promo-bar{
+        transform: translateY(155px);
+    }
+
+    .promo-banner{
+        transform: translateY(155px);
+    }
+
+    .promo-img{
+        padding: 0px 20px 0px;
+    }
+
+    .promo-discount{
+        transform: translateY(155px);
+
+    }
+
+    .promo-img{
+        transform: translateY(155px);
+    }
+
+    .media-footer{
+        transform: translateY(px);
+    }
+
+    .promo-wave{
+        transform: translateY(155px);
+    }
+
+   .media-icons{
+    transform: translateY(155px);
+   }
+
+   .media-footer-subscribe{
+    transform: translateY(165px);
+   }
 }
 
 
@@ -376,13 +413,13 @@
 <!-- BORDER -->
 
 <tr>
-	<td height="1px" style="background-color: #d3d3d3;"></td>
+	<td class="promo-bar" height="1px" style="background-color: #d3d3d3;"></td>
 </tr>
 
 <!-- BANNER IMAGE -->
 
 <tr>
-	<td>
+	<td class="promo-banner">
 		<a href="#"><img src="https://ci3.googleusercontent.com/proxy/jA2umPcAoOAfjWYoxt_ObDrfBeZX_-qAPZNaUa_6QzI9UxcGrKMdsKC8yC7nyK4tJlXYdR4-OsUge_8jS_V_Nls=s0-d-e1-ft#https://03yqh.mjt.lu/img/03yqh/b/xmpl/o5k2.png" alt="" width="600" style="max-width: 100%; padding-top: 20px;"></a>
 	</td>
 </tr>
@@ -390,7 +427,7 @@
 <!--PROMO DISCOUNT-->
 
 <tr>
-	<td>
+	<td class="promo-discount">
 		<table width="100%">
 
 
@@ -409,7 +446,7 @@
 <!--PROMO PICTURE -->
 
 <tr>
-	<td>
+	<td class="promo-img">
 		<a href="#"><img src="https://ci5.googleusercontent.com/proxy/rQ-lUkTAFT8e2UhtRjABDci6PbOXo2aef4wwPcaTFLhATOyk_PjkGHAKnkdQd1pTI4JkZbcG0PKOsq7oW755nUk=s0-d-e1-ft#https://03yqh.mjt.lu/img/03yqh/b/xmpl/o5kl.png" alt="" width="500" style="max-width: 100%; padding-top: 30px;"></a>
 	</td>
 </tr>
@@ -417,7 +454,7 @@
 <!--LOFI GIRL WAVE-->
 
 <tr>
-	<td>
+	<td class="promo-wave">
 		<a href="#"><img src="https://ci6.googleusercontent.com/proxy/S28ePBv6-QWGT2J8bRYwdxLqqAz99z0NCpTCjItXRgrBeLoGIKkqGcvS9yoIPDnJ0cAHKekzIcgwHgOWakJ91jE=s0-d-e1-ft#https://03yqh.mjt.lu/img/03yqh/b/xmpl/oxzg.png" alt="" width="600" style="max-width: 100%; padding-top: 40px;"></a>
 	</td>
 </tr>
@@ -425,11 +462,11 @@
 <!--LOFI GIRL FOOTER-->
 
 <tr>
-	<td >
+	<td class="media-footer">
 		<table width="100%">
 
             <tr>
-                <td style="font-size: 15px; color: black; padding-top: 20px; font-weight: 100;">
+                <td class="media-icons" style="font-size: 15px; color: black; padding-top: 20px; font-weight: 100;">
 
                     <p href="" style="display:inline; text-decoration: underline;">HOME</p>
                     <p style="display:inline ;" >🏡 | </p>                 
@@ -453,7 +490,7 @@
 		<table width="100%">
 
             <tr>
-                <td style="padding-top:25px; letter-spacing: 20px;">
+                <td class="media-icons" style="padding-top:25px; letter-spacing: 20px;">
 
                     <svg  width= "50px"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
                     <svg width= "50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
@@ -474,7 +511,7 @@
 		<table width="100%">
 
             <tr>
-                <td style="padding-top:15px; padding-bottom:35px; font-size: 10px;">
+                <td class="media-footer-subscribe"style="padding-top:15px; padding-bottom:35px; font-size: 10px;">
                     <link>Please add <a href="">info@lofirecords.com</a> to your address book to ensure our newsletters reach your inbox. </p>
                     <p>If you want to unsubscribe from our mailing list, <a href="">unsubscribe here</a>. </p>
                 </td>
